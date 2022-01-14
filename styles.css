@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+
+    
+}
+header h2{
+    padding-bottom: 50px;
+}
+header{
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+  
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color:#3A3A3A;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+
+}
+
+.header-image{
+height: 414px;
+width: 440px;
+border-radius: 5px;
+}
+.header-containt{
+    height: 270px;
+    width: 562px;
+}
+.header-button{
+
+background-color: #E02C6D;
+border-color: #E02C6D;
+color: whitesmoke;
+border-radius:41px ;
+height: 44px;
+width: 196px;
+cursor: pointer;
+
+}
+.third-section{
+    padding-left: 165px;
+    padding-right: 165px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    height: 110px;
+    align-content: center;
+}
+
+.collection-header{
+text-align: center;
+font-weight: 600;
+font-size:28px
+
+}
+
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+   
+    padding-left: 196px;
+    padding-right: 196px;
+    
+
+}
+.padding-part{
+
+
+}
+.collection{
+    margin: 24px;
+    border: 1px solid  #AAAAAA;
+  
+    
+}
+.collection .collection-banner img{
+   Width:300px;
+   Height:256px;
+}
+.collection-detail{
+
+}
+.collection-title{
+    font-size: 28px;
+    font-style: normal;
+    color: #18191F;
+    margin:0px;
+
+}
+.collection-money{
+    font-size: 24px;
+    font-family:inter;
+    color: #000000;
+    margin: 6px;
+    
+
+}
+.collection-author{
+    font-size: 24px;
+    font-family:inter;
+    color: #787885;
+    margin:5px 0;
+
+}
+
+.collection-info{
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+}
+.see-more a{
+    color:#E02C6D;
+}
+.optional{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color:#3A3A3A;
+    margin-top: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+    border-radius: 15px;
+    
+
+}
+.optional-section-image{
+height: 414px;
+width: 440px;
+border-radius: 5px;
+
+
+}
+.optional-section-containt{
+    
+}
