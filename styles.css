@@ -147,6 +147,38 @@ border-radius: 5px;
 
 
 }
-.optional-section-containt{
+.optional-button{
+    background-color: #E02C6D;
+border-color: #E02C6D;
+color: whitesmoke;
+height: 35px;
+width: 130px;
+cursor: pointer;
+}
+footer{
+    background-color: #0A0826;
+}
+    .contain{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+        line-height: 0.7px;
+        color: whitesmoke;
+        padding: 20px;
+
+}
+.social-icon{
+
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 45%;
+    padding-right: 45%;
+    justify-items: center;
+padding-bottom: 20px;
     
 }
+
+
+
+
