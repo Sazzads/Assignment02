@@ -13,7 +13,20 @@ body {
     font-size: 26px;
     color:#3A3A3A;
 
+
 }
+
+/* animation */
+.anime{
+    animation-name: anime-btn;
+    animation-duration: 4s;
+}
+@keyframes anime-btn {
+    0%   {left:0px; top:0px;}
+    25%  {left:100px; top:0px;}
+  }
+ 
+/* animation */
 main{
     display: flex;
     justify-content: center;
@@ -43,6 +56,19 @@ padding-bottom: 30px;
     grid-template-columns: repeat(2,1fr);
     color:#3A3A3A;
 }
+.see-more{
+    display: flex;
+    padding-top: 10px;
+    text-align: end;
+   
+}
+.see-more a{
+    
+    text-decoration: none;
+    color: rgb(54, 112, 112);
+    font-weight: bold;
+
+}
 .section2{
     margin: 0% 5%;
     width: 90%;
@@ -53,6 +79,25 @@ padding-bottom: 30px;
 height: 414px;
 width: 440px;
 border-radius: 5px;
+transition: width 3s ease, height 3s, transform 3s;
+position: relative;
+animation-name: img-anim;
+border-radius:40px;
+animation-duration: 4s;
+
+}
+@keyframes img-anim {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+.header-image img:hover {
+    width: 400px;
+    height: 400px;
+    transform: rotate(360deg);
+
 }
 .header-containt h1{
     font-size: 40px;
